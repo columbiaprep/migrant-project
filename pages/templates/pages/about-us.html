@@ -5,39 +5,54 @@ MiCenterNYC | About Us
 {% endblock %}
 {% block css %}
 <link rel="stylesheet" href="{% static 'styles/css/about-us.css' %}" />
-<link rel="stylesheet" href="{% static 'styles/css/globals.css' %}" />
-<link rel="stylesheet" href="{% static 'styles/css/styleguide.css' %}" />
 {% endblock %}
 {% block content %}
-<main>
-    <h2>Our Mission</h2>
-    <p>
-      At MiCenterNYC, we are dedicated to easing the journey of migrants in New York City by providing a comprehensive, accessible, and community-driven online platform. Our mission is to empower migrants by connecting them with vital resources, support networks, and volunteering opportunities, ensuring that they find the assistance they need with ease. Through a user-friendly interface, multilingual support, and collaborative partnerships, we strive to foster a sense of belonging and empowerment within the migrant community while promoting unity and understanding across all backgrounds.
-    </p>
-    <h2>MiCoreValues</h2>
+<div class="header">
+  <h2>Our Mission</h2>
+  <p>
+    At MiCenterNYC, we are dedicated to easing the journey of migrants in New York City by providing a comprehensive,
+    accessible, and community-driven online platform. Our mission is to empower migrants by connecting them with vital
+    resources, support networks, and volunteering opportunities, ensuring that they find the assistance they need with
+    ease. Through a user-friendly interface, multilingual support, and collaborative partnerships, we strive to foster a
+    sense of belonging and empowerment within the migrant community while promoting unity and understanding across all
+    backgrounds.
+  </p>
+</div>
+<h2>MiCoreValues</h2>
+<div class="outer">
+  <div class="values">
     <div class="container">
       <h3>Inclusion</h3>
       <p>
-        Inclusion is at the heart of everything we do. We believe that every migrant, regardless of background or circumstance, deserves a place where they can feel welcomed and supported. Our platform is a space where diversity is celebrated, and everyone's voice is valued.
+        Inclusion is at the heart of everything we do. We believe that every migrant, regardless of background or
+        circumstance, deserves a place where they can feel welcomed and supported. Our platform is a space where
+        diversity
+        is celebrated, and everyone's voice is valued.
       </p>
     </div>
     <div class="container">
       <h3>Fairness</h3>
       <p>
-        Fairness guides our actions. We are committed to providing equal opportunities and resources for all migrants, ensuring that no one is left behind. Whether it's access to information, services, or opportunities, we strive for fairness in every interaction.
+        Fairness guides our actions. We are committed to providing equal opportunities and resources for all migrants,
+        ensuring that no one is left behind. Whether it's access to information, services, or opportunities, we strive
+        for
+        fairness in every interaction.
       </p>
     </div>
     <div class="container">
       <h3>Integrity</h3>
       <p>
-        Fairness guides our actions. We are committed to providing equal opportunities and resources for all migrants, ensuring that no one is left behind. Whether it's access to information, services, or opportunities, we strive for fairness in every interaction.
+        Integrity is our foundation. We uphold the highest ethical standards, fostering trust and transparency within our community. From the information we share to the partnerships we form, integrity guides our decisions every step of the way.
       </p>
     </div>
     <div class="container">
       <h3>Security</h3>
       <p>
-        Security is non-negotiable. We understand the importance of safety and privacy for migrants navigating new territories. Our platform is designed with robust security measures to protect personal information and ensure a secure environment for all.
+        Security is non-negotiable. We understand the importance of safety and privacy for migrants navigating new
+        territories. Our platform is designed with robust security measures to protect personal information and ensure a
+        secure environment for all.
       </p>
     </div>
-</main>
+  </div>
+</div>
 {% endblock %}
