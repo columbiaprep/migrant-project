@@ -31,9 +31,9 @@ jobs:
 
       - name: Deploy to DigitalOcean
         run: |
-          ssh -o StrictHostKeyChecking=no root@your_droplet_ip <<EOF
-            cd /path/to/your/app
-            git pull origin main
+          ssh -o StrictHostKeyChecking=no root@161.35.120.96 <<EOF
+            cd migrant-project
+            git pull origin production
             source venv/bin/activate
             pip install -r requirements.txt
             python manage.py migrate
