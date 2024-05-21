@@ -33,7 +33,7 @@ jobs:
         run: |
           ssh -o StrictHostKeyChecking=no root@161.35.120.96 <<EOF
             cd migrant-project
-            git pull origin production
+            git pull
             source venv/bin/activate
             pip install -r requirements.txt
             python manage.py migrate
